@@ -29,13 +29,17 @@ customer-management-app/
     ├── database.db  # SQLite database file (auto-created)
     └── package.json
 
+
 ⚙️ Setup Instructions
 
 1️⃣ Clone the repository
+
 git clone https://github.com/your-username/customer-management-app.git
+
 cd customer-management-app
 
 2️⃣ Backend Setup
+
 cd server
 
 npm install
@@ -48,12 +52,17 @@ PORT=5000
 DB_PATH=./database.db
 
 Run Migrations & Start Server
+
 npm run migrate   # creates tables if not present
+
 npm start
 
 3️⃣ Frontend Setup
+
 cd ../client
+
 npm install
+
 npm start
 
 🗄️ Database Design
@@ -162,11 +171,15 @@ Error handling and logging system
 Test case scenarios for correctness
 
 📜 Scripts
+
 Backend
+
 npm run migrate   # Runs migrations and creates tables
+
 npm start         # Starts Express server
 
 Frontend
+
 npm start         # Starts React dev server
 
 🖼️ Demo Screenshots
